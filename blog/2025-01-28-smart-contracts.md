@@ -15,6 +15,8 @@ Now, if you’re scratching your head thinking, “Wait, why Rust? I thought Sol
 
 ---
 
+<!--truncate-->
+
 ## So, What Exactly Are Smart Contracts? 🤔  
 
 Let’s get back to the basics for a sec. A **smart contract** is like a digital agreement — but way cooler. It’s a piece of **self-executing code** that runs on a blockchain. Once specific conditions are met, the contract automatically performs the agreed-upon action, no human involvement needed. 🧙‍♂️

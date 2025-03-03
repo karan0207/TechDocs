@@ -11,6 +11,9 @@ tags: []
 
 As a DevRel engineer, I work a lot on understanding and teaching the underlying architecture, tech products, and the evolution of technology. Today, let’s dive into how modular blockchains work, what Layer 2 solutions are, and how Web3 gaming has revolutionized with this infrastructure. 🚀
 
+
+<!--truncate-->
+
 ## Modular Blockchains: The Lego Sets of Web3 🧱
 
 Imagine your blockchain as an old-school desktop computer trying to handle everything, running software, storing files, and connecting to the internet — all at once. Modular blockchains come to the rescue by splitting these tasks into specialized components, like separating the CPU, hard drive, and network adapter, so each part can focus on its job and perform optimally.
