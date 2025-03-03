@@ -27,7 +27,7 @@ function HomepageHeader() {
         </div>
 
         {/* Right container */}
-        <div className="w-3/5 h-full bg-sukuna bg-cover opacity-90 bg-center bg-no-repeat  transition-all transform hover:scale-105 duration-500 ease-out"></div>
+        <div className="w-3/5 h-full bg-sukuna bg-cover opacity-100 bg-center bg-no-repeat  transition-all transform hover:scale-105 duration-500 ease-out"></div>
       </div>
     </>
   );
