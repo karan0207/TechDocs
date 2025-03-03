@@ -1,0 +1,53 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+html[data-theme="light"],
+body[data-theme="light"] {
+  background: linear-gradient(
+    to right,
+    rgb(245, 178, 188)
+  ); /* Pinkish gradient */
+  color: #000000; /* Black text */
+}
+
+/* Dark theme styles */
+html[data-theme="dark"],
+body[data-theme="dark"] {
+  background: linear-gradient(
+    to right,
+    #2e2b5f,
+    rgb(44, 35, 35),
+    #4b0082
+  ); /* Purple gradient */
+  color: #ffffff; /* White text */
+}
+
+.navbar__link--active {
+  color: #ff69b4; /* Hot pink color for active links */
+}
+
+/* Change active link color in the sidebar (tutorial section) */
+.menu__link--active {
+  color: #ff69b4; /* Hot pink color for active links */
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
