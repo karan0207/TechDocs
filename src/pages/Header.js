@@ -20,7 +20,7 @@ function HomepageHeader() {
         </div>
 
       
-        <div className="absolute sm:relative inset-0 flex justify-center w-full items-center h-full md:w-3/5 bg-sukuna bg-cover bg-center bg-no-repeat z-0"></div>
+        <div className="absolute sm:relative inset-0 flex justify-center w-full items-center h-full md:w-3/5 bg-sukuna bg-cover bg-center bg-no-repeat  z-0 pulsate-animation"></div>
       </div>
     </>
   );
