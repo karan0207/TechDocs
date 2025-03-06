@@ -1,5 +1,5 @@
 ---
-slug: Smart Contracts and Rust The Power Duo Driving Blockchain’s Future
+slug: smart-contracts-article
 title: Smart Contracts and Rust The Power Duo Driving Blockchain’s Future
 authors: [karan]
 tags: [blockchain, rust, smart-contracts]

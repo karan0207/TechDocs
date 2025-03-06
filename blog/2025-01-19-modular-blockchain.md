@@ -1,5 +1,5 @@
 ---
-slug: how-modular-blockchains-and-layer-2-solutions-are-shaping-the-future-of-web3-gaming
+slug: modular-blockchain-article
 title: How modular blockchains and Layer 2 solutions are shaping the future of web3 gaming?
 authors: [karan]
 tags: []
