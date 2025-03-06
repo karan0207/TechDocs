@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Home',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -56,6 +56,7 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        
         },
       }),
     ],
@@ -64,10 +65,10 @@ const config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/papers.png',
       },
       items: [
         {
@@ -78,8 +79,8 @@ const config = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://www.linkedin.com/in/karan-s-chandel',
+          label: 'Connect',
           position: 'right',
         },
       ],
@@ -92,3 +93,5 @@ const config = {
 };
 
 export default config;
+
+

@@ -2,46 +2,15 @@
 sidebar_position: 1
 ---
 
-# Learn Real Development
+# Welcome to Karan Tutorial's
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Hi there! I'm Karan, a Software Developer who likes building softwares and web stuff.
+I also like doing DevREl stuff that includes writing tech blogs and tutorials of softwares, full-stack development, blockchain.
 
-## Getting Started
+## What is this Tutorial for
 
-Get started by **creating a new site**.
+When building things I realized it's always good to know all possuble approaches of doing things in tech because it gives you more exposure to core implementation and helps understanding the evolvement of tech for ex new library or framework. 
+I will try to include webdeb related stuff which is required to build Saas or your own web product this includes both frontend and backend.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
