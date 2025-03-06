@@ -44,6 +44,19 @@
 .main-wrapper {
   background: var(--bg-color);
 }
+.navbar-sidebar{
+  background: var(--bg-color-sidebar);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0 20px;
+  color: var(--text-clr);
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
 
 /* .links {
   color: var(--text-clr);
@@ -108,7 +121,13 @@
   }
   .flex-div {
     display: flex;
-    flex-direction: row;
+    padding: 1rem;
+    flex-direction: row !important;
+    gap:3rem;
+    margin-top:1rem
+  }
+  .margin-right{
+    margin-right:1rem;
   }
 }
 
@@ -292,6 +311,12 @@
   z-index: 10;
 }
 
+.w-full {
+  width: 100%;
+}
+.gap-2 {
+  gap:2rem;
+}
 /* Padding and Margin */
 .px-6 {
   padding-left: 1.5rem;
@@ -484,7 +509,24 @@
   }
 }
 
+/* @keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
 
+/* .pulsate-animation {
+  transition: transform 0.5s ease-in-out; /* Smooth transition for scaling */
+/* 
+.pulsate-animation:hover {
+  animation: pulsate 1.5s infinite ease-in-out; /* Pulsate animation on hover */
+/* }  */
 @keyframes pulsate {
   0% {
     transform: scale(1);
@@ -500,6 +542,24 @@
   }
 }
 
-.pulsate-animation {
+.pulsate-animation:hover {
   animation: pulsate 2s infinite ease-in-out;
 }
+.transition {
+  transition: all 0.3s ease;
+}
+
+.bg-end {
+  background-position: right;
+}
+.bg-start {
+  background-position: left;
+}
+
+.w-half {
+  width: 50%;
+}
+/* 
+.gap-8 {
+  margin: 2rem;
+} */
