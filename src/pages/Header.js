@@ -1,4 +1,5 @@
 import Link from "@docusaurus/Link";
+import clsx from "clsx";
 
 function HomepageHeader() {
   return (
@@ -16,17 +17,15 @@ function HomepageHeader() {
               <Link
                 to="/"
                 style={{ textDecoration: "none", fontWeight: "400" }}
-                className="dark light-link "
-              >
+                className={'text-theme'}>
                 Tech Tutorial
               </Link>
             </div>
           </div>
         </div>
 
-        <div className="absolute sm:relative inset-0 flex justify-center w-full items-center h-full md:w-3/5 bg-sukuna bg-cover bg-center bg-no-repeat  z-0 pulsate-animation transition"></div>
-       
-      </div> 
+        <div className="absolute sm:relative inset-0 flex justify-center w-full items-center h-full md:w-3/5 image-setup bg-cover bg-no-repeat bg-center z-0 pulsate-animation transition"></div>
+      </div>
     </>
   );
 }
