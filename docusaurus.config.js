@@ -9,7 +9,7 @@ const config = {
   favicon: 'img/papers.png',
 
   // Set the production url of your site here
-  url: 'https://tech-docs-opal.vercel.app',
+  url: 'https://tech-docs-cool.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
@@ -64,6 +64,11 @@ const config = {
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark', // Set the default mode to 'dark'
+      disableSwitch: false, // Allow users to switch between light and dark mode
+      respectPrefersColorScheme: false, // Ignore the user's system preference
+    },
     navbar: {
       title: 'Home',
       logo: {

@@ -6,7 +6,7 @@ import "../css/tailwind.css";
 
 import Footer from "./footer";
 import HomepageHeader from "./Header";
-import { useEffect } from "react";
+
 
 export default function Home() {
  

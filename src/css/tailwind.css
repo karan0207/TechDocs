@@ -1,14 +1,3 @@
-[data-theme="light"] {
-  --ifm-color-primary: #318CE7;
-  --bg-color: white;
-  --btn-text: black;
-  --bg-color-button: white;
-  --bg-color-sidebar: white;
-  --text-clr: black;
-  --text-theme:black;
-  --bg-image-link: url("../../static/img/green-sk.png");
-}
-
 [data-theme="dark"] {
   --ifm-color-primary: #00ffff;
   --bg-color: linear-gradient(to right, #2e2b5f, rgb(44, 35, 60), #4b0082);
@@ -28,6 +17,19 @@
   --text-theme:	#00FFFF;
   --bg-image-link: url("../../static/img/gojo.png");
 }
+
+[data-theme="light"] {
+  --ifm-color-primary: #318CE7;
+  --bg-color: white;
+  --btn-text: black;
+  --bg-color-button: white;
+  --bg-color-sidebar: white;
+  --text-clr: black;
+  --text-theme:black;
+  --bg-image-link: url("../../static/img/green-sk.png");
+}
+
+
 
 :root, body {
   color: var(--btn-text);
