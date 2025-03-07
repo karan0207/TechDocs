@@ -1,7 +1,21 @@
 import Link from "@docusaurus/Link";
 import clsx from "clsx";
+import { useEffect } from "react";
 
 function HomepageHeader() {
+  useEffect(() => {
+    // Create a link element for preloading the image
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.as = 'image';
+    link.href = '../../static/img/green-sk.png'; // Replace with the actual path to your image
+    document.head.appendChild(link);
+
+    // Clean up the link element when the component unmounts
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
   return (
     <>
       <div className="h-screen flex flex-col sm:flex-row overflow-hidden relative">

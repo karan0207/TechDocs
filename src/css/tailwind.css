@@ -611,5 +611,10 @@
   margin: 2rem;
 } */
 
-
+@media screen and (min-width: 1600px) {
+  html, body {
+    font-size: 1.2rem !important;
+    border: 1px solid red;
+  }
+}
 

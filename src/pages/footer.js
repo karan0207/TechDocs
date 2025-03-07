@@ -4,9 +4,9 @@ import Link from "@docusaurus/Link";
 const Footer = () => {
   return (
     <>
-    <div className="flex justify-between items-center px-16 py-8 mobile-view flex-col-mobile footer w-full">
+    <div className="flex justify-between items-center px-16 py-8 mobile-view flex-col-mobile footer w-full bigscreen">
       <div>
-        <Link to={"/docs-intro"} className={'links'} style={{ textDecoration: "none" }}>
+        <Link to={"/docs/intro"} className={'links '} style={{ textDecoration: "none" }}>
           Tutorial
         </Link>
       </div>
