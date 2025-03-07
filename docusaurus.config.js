@@ -65,9 +65,9 @@ const config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      defaultMode: 'dark', // Set the default mode to 'dark'
+      defaultMode: 'light', // Set the default mode to 'dark'
       disableSwitch: false, // Allow users to switch between light and dark mode
-      respectPrefersColorScheme: false, // Ignore the user's system preference
+      respectPrefersColorScheme: true, // Ignore the user's system preference
     },
     navbar: {
       title: 'Home',
