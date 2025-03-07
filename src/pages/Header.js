@@ -6,14 +6,21 @@ function HomepageHeader() {
   useEffect(() => {
     // Create a link element for preloading the image
     const link = document.createElement('link');
+    const link2= document.createElement('link');
     link.rel = 'preload';
     link.as = 'image';
-    link.href = '../../static/img/green-sk.png'; // Replace with the actual path to your image
+    link.href = '../../static/img/green-sk.png'; // Replace with the actual path to 
+    link2.rel = 'preload';
+    link2.as = 'image';
+    link2.href = '../../static/img/gojo.png';
+
     document.head.appendChild(link);
+    document.head.appendChild(link2);
 
     // Clean up the link element when the component unmounts
     return () => {
       document.head.removeChild(link);
+      document.head.removeChild(link2)
     };
   }, []);
   return (
