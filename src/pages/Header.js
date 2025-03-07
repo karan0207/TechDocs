@@ -15,7 +15,7 @@ function HomepageHeader() {
             </p>
             <div className="link-none px-8 py-4 rounded-md  text-lg sm:text-2xl hover:text-blue-300 md:text-3xl button-theme border border-purple-800 active">
               <Link
-                to="/"
+                to="/docs/intro"
                 style={{ textDecoration: "none", fontWeight: "400" }}
                 className={'text-theme'}>
                 Tech Tutorial
