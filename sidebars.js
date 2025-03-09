@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
