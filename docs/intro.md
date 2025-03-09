@@ -2,15 +2,21 @@
 sidebar_position: 1
 ---
 
-# Welcome to Karan Tutorial's
+# About Me
 
-Hi there! I'm Karan, a Software Developer who likes building softwares and web stuff.
-I also like doing DevREl stuff that includes writing tech blogs and tutorials of softwares, full-stack development, blockchain.
+<div style={{ textAlign: "center" }}>
+      <img 
+        src="https://github.com/karan0207/Karan-Portfolio/blob/main/public/karan-bg.png?raw=true" 
+        alt="cub" 
+        width="300" 
+        style={{ borderRadius: "40%", opacity:0.6, marginBottom:'20px' }} 
+      />
+    </div>
 
-## What is this Tutorial for
+Hi there! I'm Karan, a Software Developer passionate about building software and web applications. I also enjoy DevRel activities, such as writing technical blogs and tutorials on software development, full-stack development, and blockchain.
 
-When building things I realized it's always good to know all possuble approaches of doing things in tech because it gives you more exposure to core implementation and helps understanding the evolvement of tech for ex new library or framework. 
-I will try to include webdeb related stuff which is required to build Saas or your own web product this includes both frontend and backend.
+## Purpose of Tutorial's
 
+While building projects, I realized that understanding multiple approaches to solving problems in tech is invaluable. It provides deeper insights into core implementations and helps track the evolution of technology, such as new libraries or frameworks.
 
-
+In this tutorial series, I'll cover web development concepts essential for building SaaS applications or your own web products. This includes both frontend and backend development, ensuring a well-rounded understanding of full-stack technologies.
