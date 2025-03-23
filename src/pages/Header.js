@@ -10,7 +10,7 @@ function HomepageHeader() {
         <div className="relative z-10 w-full h-full flex flex-col justify-center items-center text-center text-white bg-black bg-opacity-50 md:w-2/5 sm:bg-opacity-100 sm:items-center sm:text-center sm:px-20 sm:py-10">
           <div className="max-w-md px-6 py-10 sm:px-0 sm:py-0">
             <h1 className="text-3xl sm:text-4xl md:text-5xl mb-2 opac">
-              Nice Guy
+              DevRel GuY
             </h1>
             <p className="text-3xl sm:text-4xl md:text-5xl mb-4 opac">
               Tech is Cool
@@ -20,7 +20,7 @@ function HomepageHeader() {
                 to="/docs/intro"
                 style={{ textDecoration: "none", fontWeight: "400" }}
                 className={'text-theme'}>
-                Tech Tutorial
+                Tech Tutorial's
               </Link>
             </div>
           </div>

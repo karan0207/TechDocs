@@ -15,7 +15,7 @@
   --code-block-text-dark: #f5f5f5;
   --text-clr: text-blue-300;
   --text-theme:	#00FFFF;
-  --bg-image-link: url("../../static/img/gojo.png");
+  --bg-image-link: url("../../static/img/dope-sukuna-opt.png");
 }
 
 [data-theme="light"] {
@@ -49,8 +49,11 @@
 }
 .text-theme {
   color: var(--text-theme) !important;
+  opacity:0.8;
 }
-
+.text-theme:hover {
+  opacity:1;
+}
 .opac:hover {
   opacity: 1;
 }
@@ -248,9 +251,8 @@
 .image-setup {
   background-image: var(--bg-image-link);
 }
-.bg-green-sk {
-  
-}
+
+
 .bg-cover {
   background-size: cover;
 }

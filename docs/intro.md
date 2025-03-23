@@ -4,16 +4,20 @@ sidebar_position: 1
 
 # About Me
 
-<div style={{ textAlign: "center" }}>
+Hi there! I'm Karan, a Software Developer passionate about building software and web applications. I also enjoy DevRel activities, such as writing technical blogs and tutorials on software development, full-stack development, and blockchain.
+
+
+<div style={{ textAlign: "left" }}>
       <img 
-        src="https://github.com/karan0207/Karan-Portfolio/blob/main/public/karan-bg.png?raw=true" 
+        src="https://github.com/karan0207/Karan-Portfolio/blob/main/public/karan-main-pic.png?raw=true" 
         alt="cub" 
         width="300" 
-        style={{ borderRadius: "40%", opacity:0.6, marginBottom:'20px' }} 
+        height="400"
+        style={{ borderRadius: "30px", opacity:0.6, marginTop:'20px' }} 
       />
     </div>
 
-Hi there! I'm Karan, a Software Developer passionate about building software and web applications. I also enjoy DevRel activities, such as writing technical blogs and tutorials on software development, full-stack development, and blockchain.
+
 
 ## Purpose of Tutorial's
 
