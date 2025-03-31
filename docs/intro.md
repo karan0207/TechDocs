@@ -9,7 +9,7 @@ Hi there! I'm Karan, a Software Developer passionate about building software and
 
 <div style={{ textAlign: "left" }}>
       <img 
-        src="https://github.com/karan0207/Karan-Portfolio/blob/main/public/karan-main-pic.png?raw=true" 
+        src="https://github.com/karan0207/Karan-Portfolio/blob/main/public/karan-anime.png?raw=true" 
         alt="cub" 
         width="300" 
         height="400"
